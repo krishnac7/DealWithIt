@@ -90,7 +90,7 @@ while True:
             dealing = False
             current_animation = 0
             clip = ImageSequenceClip(output_frames, fps)
-            clip.write_videofile("movie.mp4", audio='Assets/dealwithit.m4a')
+            clip.write_videofile("movie.mp4", audio='Assets/dealwithit.m4a',codec='mpeg4')
             output_frames = []
         else:
             frame = cv2.cvtColor(np.asarray(img), cv2.COLOR_RGB2BGR)
