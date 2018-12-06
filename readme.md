@@ -13,3 +13,7 @@ Fixing ffmpeg installation on macos for MoviePy:
 * paste the file to the path: /Users/yourusername/Library/Application\ Support/imageio/ffmpeg/
 
 * re-run your code
+
+
+Sample Output:
+![](deal.gif)
