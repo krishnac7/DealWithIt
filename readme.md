@@ -15,5 +15,6 @@ Fixing ffmpeg installation on macos for MoviePy:
 * re-run your code
 
 
-Sample Output:
+Sample Output:<br/>
+
 ![](deal.gif)
