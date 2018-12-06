@@ -20,8 +20,8 @@ max_width = 500
 #converting to rgba
 img = Image.open(args.image).convert('RGBA')
 
-deal = Image.open('deals.png')
-text = Image.open('text.png')
+deal = Image.open('Assets/deals.png')
+text = Image.open('Assets/text.png')
 
 if img.size[0]> max_width:
     scaled_height = int(max_width*img.size[1]/img.size[0])
