@@ -1,3 +1,5 @@
+###### Deal With It Meme Generator
+
 Packages required:
 
 `pip3 install moviepy dlib pillow imutils numpy`
@@ -18,3 +20,9 @@ Fixing ffmpeg installation on macos for MoviePy:
 Sample Output:<br/>
 
 ![](deal.gif)
+
+###### RealTime Meme Generator:
+
+`pip3 install dlib pillow imutils numpy playsound pyobjc moviepy opencv-python`
+
+Hit d to start animating and q to quit.
