@@ -1,4 +1,4 @@
-##python3 DealWithIt.py -image KrishnaBalaga.jpg
+##python3 DealWithIt.py -image <path_to_your_image>
 
 import dlib
 from PIL import Image
